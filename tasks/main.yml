@@ -1,0 +1,7 @@
+---
+- name: Extend the logical volume to take all remaining space of the PVs and resize the underlying filesystem.
+  community.general.lvol:
+    vg: "{{ vg_name }}"
+    lv: "{{ lv_name }}"
+    size: "{{ size }}"
+    resizefs: true

@@ -1,0 +1,4 @@
+---
+vg_name: "ubuntu-vg"
+lv_name: "ubuntu-lv"
+size: "100%PVS"
